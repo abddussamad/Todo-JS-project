@@ -1,0 +1,54 @@
+body{
+  font-family: Helvetica,Arial, sans-serif;
+}
+.full-width{
+  width: 600px;
+  height: auto;
+  margin: auto;
+}
+h1{
+  text-align: center;
+  color: red;
+}
+
+.grid-Items{
+  display: grid;
+  grid-template-columns: 200px 180px 130px;
+  column-gap: 15px;
+  row-gap: 15px;
+  margin-top: 10px;
+  align-items: center;
+}
+#todoInput,#tododate{
+  padding: 10px 15px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+#todoBtn{
+  background-color: rgb(47, 233, 30);
+  border: none;
+  border-radius: 10px;
+  padding: 12px 13px;
+  font-size: 20px;
+  cursor: pointer;
+}
+#js-btn{
+  background-color: rgb(158, 27, 47);
+  color: #ddd;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 13px;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+.js-span1{
+  color: rgb(244, 186, 70);
+  font-weight: 700;
+}
+.js-span2{
+  color: rgb(34, 127, 220);
+  font-weight: 700;
+
+}
